@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-image: url('../image/sky.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.act {
+	background-color: #C8BAB3;
+}
+li a:hover:not(.act) {
+	background-color: black;
+}	
+.login {
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+}
+.section {
+	width: 100%;
+	height: 600px;
+	margin-top: 50px;
+	padding: 10px;
+}
+#box {
+	padding: 20px 0;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);	
+}
